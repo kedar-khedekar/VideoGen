@@ -1,7 +1,7 @@
 import bs4
 from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen
-
+print("hey")
 news_url="https://news.google.com/news/rss"
 Client=urlopen(news_url)
 xml_page=Client.read()
