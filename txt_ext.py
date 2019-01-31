@@ -41,7 +41,7 @@ for i in range(0,len(urls)):
 print(news)
 i=0
 for url in urls:
-    sheet1.write(rw, 0, rw + 1)
+    sheet1.write(rw, 0, rw)
 
     date = articleDateExtractor.extractArticlePublishedDate(url)
     date = str(date)
